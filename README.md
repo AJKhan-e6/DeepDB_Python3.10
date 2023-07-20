@@ -23,6 +23,13 @@ For python3.8: Sometimes spflow fails, in this case remove spflow from requireme
 ```
 pip3 install spflow --no-deps
 ```
+For python3.10, use the requirements_python3.10.txt file. Additionally, you'll have to run 
+```
+sudo apt install libfreetype-dev
+sudo apt install libpng-dev
+sudo apt install libhdf5-dev
+sudo apt install gfortran
+```
 
 # Reproduce Experiments
 
